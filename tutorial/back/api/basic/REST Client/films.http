@@ -1,0 +1,10 @@
+@baseUrl = http://localhost:3000
+
+
+### Read all films
+GET http://localhost:3000/films
+
+### Read all drinks with File variable
+@baseUrl = http://localhost:3000
+GET {{baseUrl}}/films
+
