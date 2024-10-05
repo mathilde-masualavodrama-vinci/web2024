@@ -18,6 +18,10 @@ interface Drink {
   volume: number;
   price: number;
 }
+type NewDrink = Omit<Drink, "id">;
+
+
+
 
 interface Film {
   id : number
@@ -28,4 +32,4 @@ interface Film {
   description:String;
   imageUrl : String 
 }
-export type { Pizza, NewPizza, PizzaToUpdate ,Drink, Film};
+export type { Pizza, NewPizza, PizzaToUpdate ,Drink, Film, NewDrink};
