@@ -28,8 +28,8 @@ interface Film {
   title : String;
   director : String;
   duration : number;
-  budget: number;
-  description:String;
-  imageUrl : String 
+  budget?: number;
+  description?:String;
+  imageUrl ?: String 
 }
 export type { Pizza, NewPizza, PizzaToUpdate ,Drink, Film, NewDrink};
